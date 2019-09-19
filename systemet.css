@@ -1,0 +1,92 @@
+body{
+  margin:0px; /*vi fjerner margen rundt hele nettsiden*/
+  font-family: helvetica;
+  background-color: #ffc2db;
+}
+main{
+  margin-left: 50px;
+  margin-right: 50px;
+}
+nav{
+  background-color: #adaaaa; /*velger en bakrunnsfarge på navigasjonsbaren*/
+  display: flex;/*gjør navigasjonsbaren til en flex box*/
+  margin-bottom: 10px;
+}
+
+nav a{ /*velger alle a-elementer som ligger inne i nav*/
+  color:white; /*velger skrift farge på lenkene*/
+  text-decoration: none; /*fjerner understrek*/
+  padding:25px; /*lager 25 px med luft rundt lenkene*/
+}
+nav .active{ /*velger klassen active inne i nav*/
+  background-color: #f0a3a3; /*setter bakrunnsfarge på active elementet*/
+}
+
+nav a:hover:not(.active){ /*velger a-elementer som musen er over inne i nav men ikke elementer som har klassen active*/
+  background-color: #82b1ff;
+}
+
+.systemet{
+  display:grid;
+  grid-template-columns: repeat(18,1fr);
+  grid-gap: 5px;
+}
+.systemet2{
+  display:grid;
+  grid-template-columns: repeat(15,1fr);
+  grid-gap: 5px;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 50px;
+}
+.span-16{
+  grid-column: span 16;
+}
+.span-10{
+  grid-column: span 10;
+}
+.usynlig{
+  opacity:0;
+}
+.grunnstoff{
+  border-style: solid;
+  border-radius:3px;
+  border-color: grey;
+  border-width:medium;
+}
+.tall, .navn{
+  text-align:center;
+}
+.navn{
+  font-size:24px;
+}
+.grønn{
+  background-color: #95e37d;
+}
+.blå{
+  background-color: #7c96cc;
+}
+.lyserosa{
+  background-color: lightpink;
+}
+.rosa{
+  background-color:#f05b99;
+}
+.mørkerosa{
+  background-color: #de2170;
+}
+.rød{
+  background-color: red;
+}
+.gul{
+  background-color: yellow;
+}
+.lysegrønn{
+  background-color:#e9ffcc;
+}
+.lysegul{
+  background-color: #f5f598;
+}
+.grå{
+  background-color: #d1d1cd;
+}

@@ -1,0 +1,19 @@
+h1{
+  font-family: fantasy;
+  background-color: lightgrey;
+}
+body{
+  text-align:center;
+  background-image:url(https://media0.giphy.com/media/fqIBaMWI7m7O8/200w.webp?cid=790b76115dc9b753f8a43a19fa2c31ef660256c9d86ff5ac&rid=200w.webp);
+}
+
+img{
+  width: 300px;
+}
+.førsteavsnitt{
+  font-size: 30px;
+  background-color: lightgrey;
+  font-family: fantasy;
+  padding: 5px;
+  margin-top: 20px;
+}
